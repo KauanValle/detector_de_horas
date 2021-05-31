@@ -32,7 +32,7 @@ function time(){ //Intervalo de tempo em que a hora é atualizada
         fundo.style = 'background-color: #88ffcd;'
         title.style = 'color: black;'
         creditos.style = 'color: black;'
-        imgs.src = 'images/manhã.jpg'
+        imgs.src = 'code/images/manhã.jpg'
 
             //---------------------------TARDE-----------------------------------
 
@@ -40,19 +40,19 @@ function time(){ //Intervalo de tempo em que a hora é atualizada
                 fundo.style = 'background-color: #ffac2fb4;'
                 title.style = 'color: black;'
                 creditos.style = 'color: black;'
-                imgs.src = 'images/tarde.jpg'
+                imgs.src = 'code/images/tarde.jpg'
 
                 //---------------------------NOITE-----------------------------------
 
                 }else if(horas > 19 && horas <= 23){
                         fundo.style = 'background-color: #0c0b27;'
                         title.style = 'color: white;'
-                        imgs.src = 'images/noite.jpg'
+                        imgs.src = 'code/images/noite.jpg'
 
                 //---------------------------MADRUGADA-----------------------------------
 
                         }else{
                             fundo.style = 'background-color: #1f1f1f;'
                             title.style = 'color: white;'
-                            imgs.src = 'images/madrugada.jpg'
+                            imgs.src = 'code/images/madrugada.jpg'
                         }
