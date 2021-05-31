@@ -2,22 +2,11 @@
     margin: 0;
 }
 body{
-    
-    /* background-color: #0c0b27; */
-    /* color: rgb(255, 255, 255); */
     font: normal 20px Arial;
-}
-.container{
-    display: flex;
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    /* border: 1px solid red; */
 }
 #title{
     color: white;
-    /* border: 1px solid yellow; */
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: center;
 }
@@ -36,7 +25,6 @@ body{
 .paragrafo{
     margin-top: 70px;
     font-size: 30px;
-    /* border: 1px solid red; */
     position: absolute;
 }
 .img{
@@ -68,12 +56,5 @@ body{
     display: flex;
     align-self: center;
     border-radius: 50%;
-    }
-    #creditos{
-        color: white;
-        padding-top: 35px;
-        font-size: 14px;
-        display: flex;
-        justify-content: center;
     }
 }
