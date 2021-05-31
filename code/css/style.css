@@ -57,4 +57,9 @@ body{
     align-self: center;
     border-radius: 50%;
     }
+    .paragrafo{
+        margin-top: 70px;
+        font-size: 25px;
+        position: absolute;
+    }
 }

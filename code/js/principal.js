@@ -19,7 +19,7 @@ function time(){ //Intervalo de tempo em que a hora é atualizada
 //-------------------------VARIAVEIS---------------------------------------
 
     var data = new Date()
-    // var horas = 14
+    // var horas = 19
     var horas = data.getHours()
     var title = document.getElementById('title')
     var fundo = document.getElementById('body')
@@ -44,7 +44,7 @@ function time(){ //Intervalo de tempo em que a hora é atualizada
 
                 //---------------------------NOITE-----------------------------------
 
-                }else if(horas > 19 && horas <= 23){
+                }else if(horas >= 19 && horas <= 23){
                         fundo.style = 'background-color: #0c0b27;'
                         title.style = 'color: white;'
                         imgs.src = 'code/images/noite.jpg'
