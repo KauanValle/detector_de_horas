@@ -8,4 +8,4 @@ Este site é o Exercicio01, onde seu principal objetivo é detectar a hora atual
 13:00 até as 19:00 - Tarde
 19:00 até as 23:00 - Noite
 
-Ele também a hora em tempo real em que você está acessando o site.
+Eu implementei a função de mostar a hora em tempo real atual e também o site é responsivo!
